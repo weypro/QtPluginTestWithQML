@@ -1,0 +1,3 @@
+module UserQMLPlugin
+plugin UserQMLPlugin
+UserQMLPluginControls 1.0 UserQMLPluginControls.qml
