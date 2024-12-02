@@ -31,13 +31,6 @@ bld/
 [Oo]bj/
 [Ll]og/
 [Ll]ogs/
-Package/
-manual/
-!Release/dotnet/resources/**/*
-!Release/cpp/lib/x64
-!Release/cpp/lib/x86
-!Release/cppinternal/lib/x64
-!Release/cppinternal/lib/x86
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/
@@ -404,5 +397,16 @@ FodyWeavers.xsd
 # JetBrains Rider
 *.sln.iml
 
-cmake-build*
+/testdata
+*.zip
+
+build*/
 .idea
+cmake-build*/
+
+
+*.ply
+*.pcd
+*.bundle
+
+.VSCodeCounter/
